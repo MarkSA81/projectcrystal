@@ -2289,15 +2289,21 @@ BattleAnim_Mist:
 	anim_wait 96
 	anim_ret
 
-BattleAnim_HornAttack:
-	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_GRAY
-	anim_2gfx ANIM_GFX_HORN, ANIM_GFX_HIT
-	anim_obj ANIM_OBJ_HORN,   9, 0,  10, 0, $1
-	anim_wait 16
-	anim_sound 0, 1, SFX_HORN_ATTACK
-	anim_obj ANIM_OBJ_HIT_YFIX, -15, 0,   7, 0, $0
-	anim_wait 16
-	anim_ret
+BattleAnim_RageFist:
+	anim_1gfx ANIM_GFX_HIT
+	anim_battlergfx_2row
+	anim_bgp $1b
+	anim_sound 6, 2, SFX_CURSE
+	anim_wait 32
+	anim_bgeffect ANIM_BG_BATTLEROBJ_1ROW, $0, $0, $0
+	anim_bgeffect ANIM_BG_TACKLE, $0, $1, $0
+	anim_wait 4
+	anim_sound 0, 1, SFX_COMET_PUNCH
+	anim_obj ANIM_OBJ_SIDE_PUNCH, 88, 56, $0
+	anim_wait 8
+	anim_obj ANIM_OBJ_HIT_YFIX, 136, 56, $0
+	anim_wait 32
+	anim_jump BattleAnim_ShowMon_0_2
 
 BattleAnim_IcicleCrash:
 	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_ICE
