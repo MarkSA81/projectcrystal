@@ -634,7 +634,7 @@ endc
 	learnset 9, DOUBLE_KICK
 	learnset 13, POISON_STING
 	learnset 19, FURY_STRIKES ; Fury Attack → similar move
-	learnset 21, HORN_ATTACK
+	learnset 21, HEADBUTT ; Horn Attack
 	learnset 25, SWEET_KISS ; Helping Hand → event move
 	learnset 31, TOXIC_SPIKES
 	learnset 33, HEALINGLIGHT ; Flatter → event move (Morning Sun)
@@ -650,7 +650,7 @@ endc
 	learnset 9, DOUBLE_KICK
 	learnset 13, POISON_STING
 	learnset 20, FURY_STRIKES ; Fury Attack → similar move
-	learnset 23, HORN_ATTACK
+	learnset 23, HEADBUTT ; Horn Attack
 	learnset 28, SWEET_KISS ; Helping Hand → event move
 	learnset 35, TOXIC_SPIKES
 	learnset 38, HEALINGLIGHT ; Flatter → event move (Morning Sun)
@@ -2462,11 +2462,11 @@ endc
 	learnset 1, TACKLE
 	learnset 1, MUD_SLAP ; Sand-Attack → similar move
 	learnset 1, LEER ; Tail Whip → similar move
-	learnset 3, HORN_ATTACK
+	learnset 3, STOMP ; Horn Attack
 	learnset 6, FURY_STRIKES ; Fury Attack → similar move
 	learnset 9, SCARY_FACE
 	learnset 13, MAGNITUDE ; Smack Down → egg move
-	learnset 17, STOMP
+	learnset 17, HEADBUTT ; stomp
 	learnset 21, BULLDOZE
 	learnset 25, ANCIENTPOWER ; Chip Away → HGSS tutor move
 	learnset 29, ROCK_BLAST
@@ -2483,11 +2483,11 @@ endc
 	learnset 1, TACKLE
 	learnset 1, MUD_SLAP ; Sand-Attack → similar move
 	learnset 1, LEER ; Tail Whip → similar move
-	learnset 3, HORN_ATTACK
+	learnset 3, STOMP ; Horn Attack
 	learnset 6, FURY_STRIKES ; Fury Attack → similar move
 	learnset 9, SCARY_FACE
 	learnset 13, MAGNITUDE ; Smack Down → egg move
-	learnset 17, STOMP
+	learnset 17, HEADBUTT ; stomp
 	learnset 21, BULLDOZE
 	learnset 25, ANCIENTPOWER ; Chip Away → HGSS tutor move
 	learnset 29, ROCK_BLAST
@@ -2592,7 +2592,7 @@ endc
 	learnset 1, LEER ; Tail Whip → similar move
 	learnset 1, WATER_GUN ; Water Sport → RBY TM move
 	learnset 5, SUPERSONIC
-	learnset 8, HORN_ATTACK
+	learnset 8, HEADBUTT ; Horn Attack
 	learnset 13, REVERSAL ; Flail → similar move
 	learnset 16, WATER_PULSE
 	learnset 21, HAZE ; Aqua Ring → egg move
@@ -2609,7 +2609,7 @@ endc
 	learnset 1, LEER ; Tail Whip → similar move
 	learnset 1, WATER_GUN ; Water Sport → RBY TM move
 	learnset 5, SUPERSONIC
-	learnset 8, HORN_ATTACK
+	learnset 8, HEADBUTT ; Horn Attack
 	learnset 13, REVERSAL ; Flail → similar move
 	learnset 16, WATER_PULSE
 	learnset 21, HAZE ; Aqua Ring → egg move
@@ -2766,7 +2766,7 @@ endc
 	learnset 1, TACKLE
 	learnset 3, LEER ; Tail Whip → similar move
 	learnset 5, RAGE
-	learnset 8, HORN_ATTACK
+	learnset 8, HEADBUTT ; Horn Attack
 	learnset 11, SCARY_FACE
 	learnset 15, PURSUIT
 	learnset 19, REST
@@ -4532,7 +4532,7 @@ endc
 	learnset 1, NIGHT_SLASH
 	learnset 1, TACKLE
 	learnset 1, LEER
-	learnset 1, HORN_ATTACK
+	learnset 1, HEADBUTT ; Horn Attack
 	learnset 1, ENDURE
 	learnset 7, BUG_BITE ; Feint → HGSS tutor move
 	learnset 10, FURY_STRIKES ; Aerial Ace → Fury Strikes
@@ -4902,7 +4902,7 @@ endc
 	evos_attacks Donphan
 	learnset 1, FURY_STRIKES ; evolution move
 	learnset 1, GUNK_SHOT ; HGSS tutor move
-	learnset 1, HORN_ATTACK
+	learnset 1, HEADBUTT ; Horn Attack
 	learnset 1, GROWL
 	learnset 1, DEFENSE_CURL
 	learnset 1, BULLDOZE
@@ -5466,7 +5466,7 @@ endc
 	learnset 1, TACKLE
 	learnset 1, MUD_SLAP ; Sand-Attack → similar move
 	learnset 1, LEER ; Tail Whip → similar move
-	learnset 3, HORN_ATTACK
+	learnset 3, HEADBUTT ; Horn Attack
 	learnset 6, FURY_STRIKES ; Fury Attack → similar move
 	learnset 9, SCARY_FACE
 	learnset 13, MAGNITUDE ; Smack Down → egg move
