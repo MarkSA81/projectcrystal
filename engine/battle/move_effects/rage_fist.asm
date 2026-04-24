@@ -2,7 +2,7 @@
 ; Base power: 50, Max: 350 (6 hits)
 ; Counter persists when switched
 
-BattleCommand_rage_fist:
+BattleCommand_ragefist:
 	; Get current rage fist counter from wRageFistCounter
 	ld a, [wRageFistCounter]
 	
