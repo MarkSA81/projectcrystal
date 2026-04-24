@@ -1380,6 +1380,28 @@ Rage:
 	posthiteffects
 	endmove
 
+RageFist:
+	checkobedience
+	usedmovetext
+	doturn
+	hastarget
+	checkhit
+	checkpriority
+	critical
+	damagestats
+    ragefist
+	damagecalc
+	stab
+	damagevariation
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	postfainteffects
+	posthiteffects
+	endmove
+
 Metronome:
 	checkobedience
 	usedmovetext
