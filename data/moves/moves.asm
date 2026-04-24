@@ -50,7 +50,7 @@ endc
 	move FOCUS_BLAST,     EFFECT_SP_DEF_DOWN_HIT,   120, FIGHTING,   70,  5,  10, SPECIAL
 	move TOXIC_SPIKES,    EFFECT_TOXIC_SPIKES,        0, POISON,     -1, 20,   0, STATUS
 	move HEADBUTT,        EFFECT_FLINCH_HIT,         70, NORMAL,    100, 15,  30, PHYSICAL
-	move HORN_ATTACK,     EFFECT_NORMAL_HIT,         65, NORMAL,    100, 25,   0, PHYSICAL
+	move RAGE_FIST,       EFFECT_RAGE_FIST,          50, GHOST,     100, 10,   0, PHYSICAL
 	move TRICK,           EFFECT_TRICK,               0, PSYCHIC,   100, 10,   0, STATUS
 	move HEX,             EFFECT_CONDITIONAL_BOOST,  65, GHOST,     100, 10,   0, SPECIAL
 	move TACKLE,          EFFECT_NORMAL_HIT,         40, NORMAL,    100, 35,   0, PHYSICAL
