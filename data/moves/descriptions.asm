@@ -30,7 +30,7 @@ MoveDescriptions::
 	dw FocusBlastDescription
 	dw ToxicSpikesDescription
 	dw HeadbuttDescription
-	dw HornAttackDescription
+	dw RageFistDescription
 	dw TrickDescription
 	dw HexDescription
 	dw TackleDescription
@@ -906,9 +906,9 @@ TackleDescription:
 	next "attack."
 	done
 
-HornAttackDescription:
-	text "An attack using a"
-	next "horn to jab."
+RageFistDescription:
+	text "Raises Power if"
+	next "the user is hit."
 	done
 
 DoubleKickDescription:
