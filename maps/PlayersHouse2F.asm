@@ -238,7 +238,7 @@ endr
 	; hm slave
 	givepoke MEW, PLAIN_FORM, 100, LEFTOVERS
 	loadmem wPartyMon2Moves+0, FLY
-	loadmem wPartyMon2Moves+1, HEADBUTT
+	loadmem wPartyMon2Moves+1, RAGE_FIST
 	loadmem wPartyMon2Moves+2, DIG
 	loadmem wPartyMon2Moves+3, FRESH_SNACK
 	loadmem wPartyMon2PP+0, 15
